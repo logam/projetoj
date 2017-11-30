@@ -8,5 +8,8 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('View_Home');
 	}
+	public function cliente(){
+		$this->load->view('Clientes/view_lista_clientes');
+	}
 }
  
