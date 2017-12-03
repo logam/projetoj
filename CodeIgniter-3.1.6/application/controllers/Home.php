@@ -8,8 +8,6 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('View_Home');
 	}
-	public function Cliente(){
-		echo "executou o metodo cliente";
-	}
+
 }
  

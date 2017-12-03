@@ -4,7 +4,7 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="assets/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+          <img src="<?php echo base_url('assets/img/user2-160x160.jpg') ?>" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p>Alexander Pierce</p>
@@ -33,7 +33,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class="active"><a href="<?php site_url('Login')?>"><i class="fa fa-circle-o"></i> Listar Clientes</a></li>
+            <li class="active"><a href="<?=site_url('login')?>"><i class="fa fa-circle-o"></i> Listar Clientes</a></li>
             <li><a href="index2.html"><i class="fa fa-circle-o"></i> Ordens de Serviço</a></li>
           </ul>
         </li>
