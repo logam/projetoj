@@ -33,7 +33,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class="active"><a href="index.php/Home/Cliente"><i class="fa fa-circle-o"></i> Listar Clientes</a></li>
+            <li class="active"><a href="<?php base_url('Login')?>"><i class="fa fa-circle-o"></i> Listar Clientes</a></li>
             <li><a href="index2.html"><i class="fa fa-circle-o"></i> Ordens de Serviço</a></li>
           </ul>
         </li>

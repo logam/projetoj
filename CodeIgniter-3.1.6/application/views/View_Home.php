@@ -1,6 +1,17 @@
 
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+
+if (isset($pagina)){
+  $pagina = $pagina;
+}else{
+  $pagina = '';
+}
+
+
+
+
+
 ?>
 
 
@@ -30,6 +41,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
         <h1>Conteúdo!!</h1>
+        
+       <?php
+       if(!empty($pagina)){
+          $this->load->view($pagina);     
+       }
+       ?>
+        
 
 
 
